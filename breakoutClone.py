@@ -161,6 +161,6 @@ if gameLost(ballPos):
     display.show(Image.SAD)
 else:
     display.scroll("You win!")
-    display.show(Image.SMILE)
+    display.show(Image.HAPPY)
 
 
