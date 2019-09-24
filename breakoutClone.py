@@ -150,11 +150,11 @@ while not gameWon(board) and not gameLost(ballPos):
     for i in range(4):
         board, playerPos = updatePlayer(board, playerPos)
         updateLED(board)
-        sleep(250)
+        sleep(125)
     board, playerPos = updatePlayer(board, playerPos)
     board, ballPos = updateBoard(board, ballPos)
     updateLED(board)
-    sleep(100)
+    sleep(50)
 
 if gameLost(ballPos):
     display.scroll("You lose!")
